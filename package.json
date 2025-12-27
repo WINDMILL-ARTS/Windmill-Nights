@@ -1,0 +1,37 @@
+{
+  "name": "windmill-nights",
+  "displayName": "Windmill Nights",
+  "description": "A blue dark theme for the little guys who live in a blue world.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WINDMILL-ARTS/Windmill-Nights.git"
+  },
+  "galleryBanner": {
+    "color": "#0B233D",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "publisher": "WINDMILLARTS",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Windmill Nights",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Windmill Nights-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
